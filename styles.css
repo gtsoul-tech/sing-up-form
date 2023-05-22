@@ -12,6 +12,7 @@ body{
     font-family: norse;
 }
 .imgContent{
+    position: relative;
     display: flex;
     height:100vh;
 }
@@ -31,10 +32,7 @@ body{
 }
 .user_form{
     border-radius: 5px;
-    background-color: rgb(6, 6, 6);
-    box-shadow: 0px 9px 12px 4px rgba(27,27,27,0.86);
-    -webkit-box-shadow: 0px 9px 12px 4px rgba(27,27,27,0.86);
-    -moz-box-shadow: 0px 9px 12px 4px rgba(27,27,27,0.86);
+    max-width: 800px;
 }
 form{
     display: flex;
@@ -88,4 +86,27 @@ input:focus{
     color: teal;
     text-decoration: none;
     font-weight:900;
+}
+
+.back{
+    position: absolute;
+    background-color: black;
+    top: 20%;
+    width: 100%;
+    height: 100px;
+    opacity: 0.3;
+}
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 17%;
+    width: 100%;
+}
+.card h1{
+    padding:20px;
+}
+.card h1::before{
+    content: " 🦋 ";
 }
