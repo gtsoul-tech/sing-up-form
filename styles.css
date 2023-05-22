@@ -2,6 +2,15 @@
     font-family: 'norse';
     src: url(./fonts/Norse-Bold.otf);
 }
+::-moz-selection { /* Code for Firefox */
+    color: white;
+    background: teal;
+}
+
+::selection {
+    color: white;
+    background: teal;
+}
 body{
     padding: 0;
     margin: 0;
