@@ -51,17 +51,17 @@ form{
     border-radius: 5px;
 }
 
-.input input:focus-within{
-    border: 2px solid teal;
-}
+
 .input input:valid{
+    outline: none;
     border: 2px solid teal;
 }
-.input input:invalid{
-    border: 2px solid red;
+
+
+input:focus{
+    outline: none;
+    border: 2px solid teal;
 }
-
-
 
 .submit input{
     margin: 10px;
