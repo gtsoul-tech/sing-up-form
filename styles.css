@@ -110,3 +110,16 @@ input:focus{
 .card h1::before{
     content: " 🦋 ";
 }
+
+.imgCredit{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+}
+.imgCredit a{
+    color: teal;
+    text-decoration: none;
+    font-weight:900;
+}
